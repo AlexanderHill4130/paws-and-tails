@@ -145,7 +145,7 @@
                 </div>
 
                 <div class="col p-3">
-                  <input type="text" name="Size" class="form-control" placeholder="Dog size?" list="size" />
+                  <input type="text" name="Size" class="form-control" placeholder="Dog size?" list="size" required>
                   <datalist id="size">
                     <option>Small</option>
                     <option>Medium</option>
@@ -154,7 +154,7 @@
                 </div>
 
                 <div class="col p-3">
-                  <input type="text" name="Hair" class="form-control" placeholder="Hair type?" list="hair" />
+                  <input type="text" name="Hair" class="form-control" placeholder="Hair type?" list="hair" required>
                   <datalist id="hair">
                     <option>Short Hair</option>
                     <option>Long/Curly Hair</option>
@@ -162,7 +162,7 @@
                 </div>
 
                 <div class="col p-3">
-                  <input type="text" name="Treatment" class="form-control" placeholder="Service?" list="treatments" />
+                  <input type="text" name="Treatment" class="form-control" placeholder="Service?" list="treatments" required>
                   <datalist id="treatments">
                     <option>Basic Groom</option>
                     <option>Full Groom</option>
@@ -174,7 +174,6 @@
                 <div class="col p-3">
                   <input type="text" name="Email" class="form-control" placeholder="Your email address? example@email.com" required>
                 </div>
-              </div>
 
               <div class="form-group p-3">
                 <textarea placeholder="Anything else to tell us?" class="form-control" name="Details" rows="10" required></textarea>
